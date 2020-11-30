@@ -5,12 +5,13 @@ public class Student {
 	private int id;
 	private String studentName;
 
-	public void setId(int id) {
+	public Student(int id, String studentName) {
 		this.id = id;
+		this.studentName = studentName;
 	}
 
-	public void setStudentName(String studentName) {
-		this.studentName = studentName;
+	public Student(int id) {
+		this.id = id;
 	}
 
 	public void display() {
